@@ -1,13 +1,43 @@
+<!DOCTYPE html>
 <html>
   <head>
+    <!-- OpenID -->
     <link href='https://www.google.com/accounts/o8/ud?source=profiles' rel='openid2.provider openid.server' />
-    <link href='http://www.google.com/profiles/tjdett' rel='openid2.local_id openid.delegate' />
+    <link href='https://www.google.com/profiles/tjdett' rel='openid2.local_id openid.delegate' />
+    <!-- Metadata -->
+    <link rel="author" href="https://plus.google.com/101912509009607560491" />
     <meta content='Tim Dettrick' name='keywords' />
-    <script type='text/javascript'>
-    window.location.href = "https://en.gravatar.com/tjdett";
-    </script>
+    <!-- Resources -->
+    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet"/>
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.min.css" rel="stylesheet"/>
+    <link href='//fonts.googleapis.com/css?family=Poiret+One|Oxygen' rel='stylesheet' type='text/css'>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.2.2/js/bootstrap.min.js"></script>
+    <style type="text/css">
+    h1, h2, h3, h4, h5, h6 {
+      font-family: 'Poiret One', sans-serif;
+    }
+    body {
+      font-family: 'Oxygen', sans-serif;
+    }
+    
+    #spacer {
+      height: 60px;
+    }
+    
+    .nw {
+      white-space: nowrap;
+    }
+    
+    #web-identities li {
+      margin-top: 0.5em;
+      margin-bottom: 0.5em;
+      font-size: 120%;
+    }
+    </style>
   </head>
   <body>
+  <div id="spacer" class="hidden-phone"></div>
   {{content}}
   </body>
 </html>
