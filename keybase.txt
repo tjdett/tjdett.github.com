@@ -1,0 +1,73 @@
+==================================================================
+https://keybase.io/tjdett
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://tim.dettrick.net
+  * I am tjdett (https://keybase.io/tjdett) on keybase.
+  * I have a public key with fingerprint 1DC5 86BE 4DB4 42DA F5CA  BB13 AF08 7014 85FB 53F0
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101a17b0f3615f95f18a2a8919cc35911b34d11e078ad4be22b477a492c1934d1390a",
+            "fingerprint": "1dc586be4db442daf5cabb13af08701485fb53f0",
+            "host": "keybase.io",
+            "key_id": "af08701485fb53f0",
+            "kid": "0101a17b0f3615f95f18a2a8919cc35911b34d11e078ad4be22b477a492c1934d1390a",
+            "uid": "fcda52ef0d90764a4d3028b98bbad319",
+            "username": "tjdett"
+        },
+        "service": {
+            "hostname": "tim.dettrick.net",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1469572239,
+    "expire_in": 157680000,
+    "prev": "8d1f2a0b5e2780035f9ee6b586e80640d2a7d14acc1ace3fa923eb30e153a18c",
+    "seqno": 4,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v2
+
+owGtUm1QVFUYXghqIVyIlcyEkoshGNI992P33h0VGQocowW2KQgHtvtxLlzZL+7e
+XSQhPixHEWZQUmLGSaKJhWFUcqZEwnSimsDAHzRphWIFCqM7Y2y5oojdy+S/fnb+
+nDnv83Ge9z2ndcVjGm1IgU475DimOx1yYY7VFLZPt+1GWCdfjZh2IxVweYM2Hrpl
+a4XIIyYEBShggJFFBdwASIEmBUAxGEPRgOY4nKQBYHGCBwCiRorhCRZiGEsYjQxB
+YxygVQinUQZJQwTRUQYllyQ6ZMUW8BxJGVhI8CxBYDwjkBzDsgBnBJQyooCgSIEl
+cQFVhOVOt6pQwrGMG6aLTqWmHKzL8f6D/z/n9izbCRzPkBgUUJ5GjQaCIXgcxSiW
+pliW4XFAq0Q3lByMHSpseScPZRmpTUOUmlfkoDpWtY9HuGhPVxmSyFWkO6CsqF2S
+U3ZyTpuClsuyy21S1XK1S6VXQdb6r5GVFR28MklF4YWSW3Q6EBNQmJxiqVABYaBJ
+I4bhdBoCd7lECVpFlUEaDRSqLPUe6FUsKR4IWDGDsiTEjAqEKyOC0MAqjwIp1ECg
+PMYYeUAwHAcYDuICQ2M4ZHEUAhJnAMUham+VDidiIpScTJni6RbLHIzskSBSG7k/
+ND5ME6LVPB4eqv4xTWREzKOPlxcdo+nx6B/Mlh2MNcze2nx2U65lwj68oVhjFcwJ
+ILTKE4wb6w4OknmJ/uGEYFLG9obJ+JyA6Wr3R/Xm/MZ3+hJqfYGR0cypfYFbaWvQ
+D31PdN6Y0bYvFCaanzJKY282xqRY6u4fjky6cfH6dwP3wqoaLVdb9A3IaUtn2p5T
+d+s6u5sD35555hh1PFj09E7t6mnzlnzP0tzPpRkL3VE9JW9ULxzIzv5Var6sP1ta
+PIzdXN8xcoe7d7uYqGl5e/5+auCvouMiJ538seRU/2Bq2Kt+Z89oxmx1x7qPA762
+KxGZr2z87GjujkVL11T884dC9sYiPTd/q2mONZkv7PXYB4riVp0599Om77PX6c9t
+9YTklX9QmL2rwTb9nmbHp+eFjfXWmGdfOhHleDgx1Hp932Ty/rLXs48MTA1vDfcl
+Ydt0URE/bEmq/MLbpaMvxR5dKshfWZ955w9vkz5nz+3ImsnUumv99S86TckbcjIP
+1nPbT2aNnuh/qPVFZw1y9GJXuK0mvunlgkQq/EFHzlLK2rtJV6KtjU/2/TLyri73
+kE58f42ud/zvjBVBx5fbzBHrbWPnV116q2H1J15rxAvjlSn+5A7/Ws08/Tvr8yf6
+g6mvtY3PrIzLa41OnaDa9c9dc825h+Itdim/75vSzTZ354GLQxPDX1dmLdp7w2eS
+kfkmXctXvX9+jjVcLun5Bw==
+=7GE1
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/tjdett
+
+==================================================================
