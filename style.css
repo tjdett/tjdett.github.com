@@ -44,22 +44,20 @@ heading a:hover {
 }
 
 #identities > *[title="Twitter"]::before {
-  content: url("https://tjdett.keybase.pub/icons/twitter.svg");
+  content: url("icons/twitter.svg");
 }
 #identities > *[title="GitHub"]::before {
-  content: url("https://tjdett.keybase.pub/icons/github.svg");
+  content: url("icons/github.svg");
 }
 #identities > *[title="Facebook"]::before {
-  content: url("https://tjdett.keybase.pub/icons/facebook.svg");
+  content: url("icons/facebook.svg");
 }
 #identities > *[title="LinkedIn"]::before {
-  content: url("https://tjdett.keybase.pub/icons/linkedin.svg");
+  content: url("icons/linkedin.svg");
 }
-
 #identities > *[title="Keybase"]::before {
-  content: url("https://tjdett.keybase.pub/icons/keybase.svg");
+  content: url("icons/keybase.svg");
 }
-
 #identities > *[title="PGP Key"]::before {
   content: "\1f511";
   font-size: 14px;
@@ -96,7 +94,7 @@ heading img.headshot {
     text-align: center;
     background-color: #244021;
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-      url("https://tjdett.keybase.pub/bg.jpg");
+      url("images/bg.jpg");
     background-size: cover;
   }
 
@@ -123,7 +121,7 @@ heading img.headshot {
   body {
     background-color: #244021;
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-      url("https://tjdett.keybase.pub/bg.jpg");
+      url("images/bg.jpg");
     background-size: cover;
   }
 
