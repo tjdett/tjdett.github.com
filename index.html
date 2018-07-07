@@ -1,88 +1,53 @@
----
-layout: default
-title: Tim Dettrick
----
-
-<style is="custom-style">
-h1, h2, h3, h4, h5, h6, app-toolbar {
-  font-weight: bold;
-  font-family: 'Poiret One', sans-serif;
-}
-
-address, paper-icon-item, footer {
-  font-family: 'Oxygen', sans-serif;
-}
-
-address {
-  @apply(--paper-icon-item);
-}
-
-address .adr {
-  @apply(--paper-icon-item);
-}
-
-#web-identities li {
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
-  font-size: 120%;
-}
-
-app-header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 60px;
-  color: #fff;
-  background-color: #3f51b5;
-}
-
-section {
-  padding: 88px 16px;
-}
-
-.container {
-  @apply(--layout-horizontal);
-  max-width: 800px;
-  margin: 0 auto;
-}
-.container img {
-  max-width: 100%;
-  max-height: 100%;
-}
-.container h3 {
-  font-size: 32px;
-  font-weight: 300;
-  margin: 24px 0;
-}
-.container p {
-  line-height: 1.5;
-}
-
-@media (max-width: 600px) {
-  .container {
-    @apply(--layout-vertical);
-  }
-}
-
-</style>
-
-<app-header>
-  <app-toolbar>
-    <div title>Tim Dettrick</div>
-    <div subhead>Software Developer &amp; Engineer</div>
-  </app-toolbar>
-</app-header>
-
-<section id="profile">
-  <div class="container">
-    <div class="flex">
-      <iron-image alt="Tim Dettrick"
-        src="https://secure.gravatar.com/avatar/369a7f4cee234e402fa8b7dc2b4bc016?size=300">
-      </iron-image>
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- OpenID -->
+    <link href='https://www.google.com/accounts/o8/ud?source=profiles' rel='openid2.provider openid.server' />
+    <link href='https://www.google.com/profiles/tjdett' rel='openid2.local_id openid.delegate' />
+    <!-- Metadata -->
+    <title>Tim Dettrick</title>
+    <link rel="author" href="https://plus.google.com/101912509009607560491" />
+    <meta name='keywords' content='Tim Dettrick' />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="page">
+      <main class="content" itemscope itemtype="http://schema.org/Person">
+        <heading>
+          <img class="headshot" alt="Photo of Tim Dettrick" src="https://secure.gravatar.com/avatar/369a7f4cee234e402fa8b7dc2b4bc016?size=300"/>
+          <h1 itemprop="name">Tim Dettrick</h1>
+          <div itemprop="jobTitle">Software Engineer</div>
+          <address>
+            <a class="adr" href="http://www.geonames.org/7839562/brisbane.html">
+              <span class="locality">Brisbane</span>,
+              <span class="country-name">Australia</span>
+            </a>
+          </address>
+        </heading>
+        <section id="identities">
+          <span title="Twitter">
+            <a itemprop="sameAs" href="https://twitter.com/tjdett">tjdett</a>
+          </span>
+          <span title="GitHub">
+            <a itemprop="sameAs" href="https://github.com/tjdett">tjdett</a>
+          </span>
+          <span title="Facebook">
+            <a itemprop="sameAs" href="http://www.facebook.com/tim.dettrick">tim.dettrick</a>
+          </span>
+          <span title="LinkedIn">
+            <a itemprop="sameAs" href="http://www.linkedin.com/in/timdettrick">timdettrick</a>
+          </span>
+          <span title="Keybase">
+            <a itemprop="sameAs" href="https://keybase.io/tjdett">tjdett</a>
+          </span>
+          <span title="PGP Key">
+            <a title="PGP Key (0x85FB53F0)"  href="https://pgp.mit.edu/pks/lookup?op=get&search=0xAF08701485FB53F0">
+              <abbr title="1DC586BE4DB442DAF5CABB13AF08701485FB53F0">0xAF08701485FB53F0</abbr>
+            </a>
+          </span>
+        </section>
+      </main>
     </div>
-    <div class="flex-2">
-      {% include identities.html %}
-    </div>
-  </div>
-</section>
+  </body>
+</html>

@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css?family=Work+Sans:300");
+
+html,
+body {
+  font-family: "Work Sans", sans-serif;
+  margin: 0;
+}
+
+heading h1 {
+  white-space: nowrap;
+}
+
+heading a {
+  text-decoration: none;
+}
+
+heading a:hover {
+  text-decoration: underline;
+}
+
+#identities {
+  display: list;
+}
+
+#identities > *[title] {
+  display: list-item;
+  list-style: none;
+  padding-bottom: 1em;
+}
+
+#identities > *[title]::before {
+  content: " ";
+  display: inline-block;
+  padding-right: 0.5ex;
+  width: 1em;
+}
+
+#identities a {
+  text-decoration: none;
+}
+
+#identities a:hover {
+  text-decoration: underline;
+}
+
+#identities > *[title="Twitter"]::before {
+  content: url("https://tjdett.keybase.pub/icons/twitter.svg");
+}
+#identities > *[title="GitHub"]::before {
+  content: url("https://tjdett.keybase.pub/icons/github.svg");
+}
+#identities > *[title="Facebook"]::before {
+  content: url("https://tjdett.keybase.pub/icons/facebook.svg");
+}
+#identities > *[title="LinkedIn"]::before {
+  content: url("https://tjdett.keybase.pub/icons/linkedin.svg");
+}
+
+#identities > *[title="Keybase"]::before {
+  content: url("https://tjdett.keybase.pub/icons/keybase.svg");
+}
+
+#identities > *[title="PGP Key"]::before {
+  content: "\1f511";
+  font-size: 14px;
+}
+
+abbr {
+  text-decoration: none;
+}
+
+abbr:hover {
+  text-decoration: inherit;
+}
+
+heading img.headshot {
+  max-height: 150px;
+  max-width: 150px;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 599px) {
+  body {
+    background-color: black;
+  }
+
+  .content {
+    min-height: 100vh;
+    background-color: white;
+    border-radius: 1px;
+  }
+
+  heading {
+    margin: 0;
+    display: block;
+    text-align: center;
+    background-color: #244021;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+      url("https://tjdett.keybase.pub/bg.jpg");
+    background-size: cover;
+  }
+
+  heading {
+    color: white;
+    text-shadow: 0px 1px rgba(0, 0, 0, 0.5);
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+  }
+
+  heading a {
+    color: white;
+  }
+
+  section {
+    padding: 1.5em;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 12em;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  body {
+    background-color: #244021;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+      url("https://tjdett.keybase.pub/bg.jpg");
+    background-size: cover;
+  }
+
+  .page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+  }
+
+  .content {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 5px;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  heading {
+    padding: 1em;
+    text-align: center;
+  }
+
+  heading h1 {
+    margin-bottom: 0;
+  }
+  heading p {
+    margin-top: 0;
+  }
+
+  section {
+    margin: 1em;
+  }
+}
