@@ -94,7 +94,7 @@ heading img.headshot {
     text-align: center;
     background-color: #244021;
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-      url("images/bg.jpg");
+      url("images/bg.jpg"), url("images/bg_small.svg");
     background-size: cover;
   }
 
@@ -121,7 +121,7 @@ heading img.headshot {
   body {
     background-color: #244021;
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-      url("images/bg.jpg");
+      url("images/bg.jpg"), url("images/bg_small.svg");
     background-size: cover;
   }
 
